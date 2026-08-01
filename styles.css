@@ -1,16 +1,21 @@
-body {
-  margin: 0;
-  background: #000;
-  color: #00ffff;
-  font-family: Arial, sans-serif;
-  text-align: center;
+
+body{
+  margin:0;
+  background:#000;
+  color:#00ffff;
+  font-family:Arial,sans-serif;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  height:100vh;
 }
 
-h1 {
-  margin-top: 100px;
-  font-size: 40px;
+h1{
+  font-size:50px;
+  text-shadow:0 0 20px cyan;
 }
 
-p {
-  font-size: 20px;
+p{
+  font-size:22px;
+  color:#00bfff;
 }
